@@ -36,8 +36,10 @@ li{
     float: right;
 }
 
-#button-start{
-    padding: 3px 5px
+.blu-button{
+    padding: 3px 5px;
+    background-color: rgb(66, 66, 224);
+    color: white;
 }
 
 .banner{
@@ -47,23 +49,42 @@ li{
 }
 
 h1{
-    padding: 80px 10% 20px;
+    padding: 50px 10% 20px;
     text-align: center;
-}
-
-p{
-    max-width: 45%;
-    padding :0  10%;
 }
 
 section{ 
     width: 80%;
     height: 400px;
-    margin: auto;
+    margin:  10px auto;
 }
+
+h2{
+    margin-bottom: 15px;
+}
+
+.testo-sinistra{
+    max-width: 50%;
+    padding :0  10%;
+}
+
+
 
 #prima-section, #terza-section, #sesta-section{
     background-color: aqua;
+}
+
+.piano-business{
+    
+    width: calc(96%/3);
+    height: 100px;
+    background-color: purple;
+    display: inline;
+    float: left;
+} 
+
+#col2{
+    margin: auto 2%;
 }
 
 #quinta-section{
@@ -71,6 +92,8 @@ section{
     height: 400px;
     background-color: rgb(201, 231, 90);
 }
+
+
 
 footer{
     width: 100%;
