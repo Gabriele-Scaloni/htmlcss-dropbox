@@ -6,7 +6,7 @@
 
 .container{
     width: 100%;
-    height: 40px;
+    height: 80px;
     position: fixed;
     background-color: white;
 }
@@ -55,7 +55,7 @@ h1{
 
 section{ 
     width: 80%;
-    height: 400px;
+    height: 500px;
     margin:  10px auto;
 }
 
@@ -68,32 +68,65 @@ h2{
     padding :0  10%;
 }
 
+#seconda-section{
+    background-color: chartreuse;
+}
 
-
-#prima-section, #terza-section, #sesta-section{
+ #terza-section, #sesta-section{
     background-color: aqua;
 }
 
-.piano-business{
-    
-    width: calc(96%/3);
-    height: 100px;
-    background-color: purple;
-    display: inline;
-    float: left;
-} 
-
-#col2{
-    margin: auto 2%;
+#prima-section{
+    height: auto;
 }
 
+.piano-business{
+    border: 1px solid grey;
+    width: calc(96%/3);
+    height: auto;
+    display: inline;
+    float: left;
+    margin-top: 10px ;
+    margin-bottom: 5%;
+} 
+
+.head-box{
+    height: auto;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.centratura-piano{
+    padding: 1% 3% 1% 3%;
+}
+.mese{
+    color: rgb(110, 108, 108);
+}
+
+#prova-gratis{
+    margin: 30px auto 20px auto;
+    width: 100%;
+}
+
+hr{
+    margin: 5% 0;
+    width: 25%;
+}
+
+#col2{
+    margin: 10px 2% 0;
+}
+
+.spunta{
+    color: rgb(96, 16, 187) ;
+}
+
+.footer-piano-business{}
 #quinta-section{
     width: 100%;
     height: 400px;
     background-color: rgb(201, 231, 90);
 }
-
-
 
 footer{
     width: 100%;
@@ -101,3 +134,4 @@ footer{
     margin: auto;
     background-color: black ;
 }
+
