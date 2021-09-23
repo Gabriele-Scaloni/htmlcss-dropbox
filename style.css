@@ -37,7 +37,7 @@ li{
 }
 
 .blu-button{
-    padding: 3px 5px;
+    padding:5px 10%;
     background-color: rgb(66, 66, 224);
     color: white;
 }
@@ -66,10 +66,6 @@ h2{
 .testo-sinistra{
     max-width: 50%;
     padding :0  10%;
-}
-
-#seconda-section{
-    background-color: chartreuse;
 }
 
  #terza-section, #sesta-section{
@@ -121,7 +117,21 @@ hr{
     color: rgb(96, 16, 187) ;
 }
 
-.footer-piano-business{}
+
+.section-piano-business{
+    border: 1px solid grey;
+}
+
+#contatta-ufficio-vendite /*bottone*/{
+    float: right;
+    margin-top: 10px;
+}
+
+.enterprise{
+    margin: 15px  50% 15px 10px;
+
+}
+
 #quinta-section{
     width: 100%;
     height: 400px;
