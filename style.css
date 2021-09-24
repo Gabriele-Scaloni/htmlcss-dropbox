@@ -167,7 +167,7 @@ hr{
 #quarta-section{
     width: 100%;
     height:auto;
-    
+
 }
 
 .titolo{
@@ -245,7 +245,7 @@ hr{
 .footer-quarta-section{
     width: 100%;
     height: 300px;
-    background-color: red;
+    background-color: lightslategray;
     position: relative;
 }
 
@@ -255,23 +255,26 @@ hr{
     position: absolute;
     top: 50%;
     left: 10%;
-    transform: (-50%, -50%);
+    transform: (-50%, -90%);
 }
 
 .blu-button.inline{
     position: absolute;
     top: 50%;
     right: 10%;
-    transform: (-50%, -50%);
+    transform: (-50%, 90%);
 }
    
    
-
-
 .quinta-section{
-    width: 100%;
+    width: 80%;
     height: 300px;
     background-color: coral;
+}
+
+.domande-frequenti{
+    font-size: 25px;
+    color: rgb(150, 8, 44);
 }
 
 footer{
