@@ -55,6 +55,13 @@ h1{
     font-size: 30px;
 }
 
+.jumbo{
+        max-width: 45%;
+        float: right;
+        margin-right: 5%;
+        margin-top: 5%;
+}
+
 section{ 
     width: 80%;
     height: auto;
@@ -68,7 +75,9 @@ h2{
 .testo-sinistra{
     max-width: 50%;
     padding :0  10%;
+    float: left;
 }
+
 
 .piano-business{
     border: 1px solid grey;
@@ -168,8 +177,6 @@ hr{
 }
 
 
-
-
 .col.left {
     width: 30%;
     height: 300px;
@@ -191,13 +198,47 @@ hr{
     float: left;
 }
 
+.img-sinistra-alto{
+   width:50%;
+   height: 50%;
+   background-color:red;
+   float: left;
+   border: 5px solid powderblue;
+   padding: 3% 3% 3% 0;
+}
+
+ .img-sinistra-basso{
+     width:50%;
+     height: 50%;
+     background-color: black;
+     float: left;
+  }
+
+ .img-destra-alto{
+    width:50%;
+    height: 50%;
+    background-color: blue;
+    float: left;
+ }
+
+ .img-destra-basso{
+    width:50%;
+    height: 50%;
+    background-color: green;
+    float: left;
+ }
+ 
+ .immagini{
+     max-width: 60%;
+     display: block;
+   
+     
+ }
 
 #quinta-section{
     height: 500px;
     background-color: pink;
 }
-
-
 
 footer{
     width: 100%;
