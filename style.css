@@ -8,6 +8,7 @@
     width: 100%;
     height: 80px;
     position: fixed;
+    top: 0;
     background-color: white;
 }
 
@@ -51,12 +52,13 @@ li{
 h1{
     padding: 50px 10% 20px;
     text-align: center;
+    font-size: 30px;
 }
 
 section{ 
     width: 80%;
-    height: 500px;
-    margin:  10px auto;
+    height: auto;
+    margin:  100px auto;
 }
 
 h2{
@@ -66,14 +68,6 @@ h2{
 .testo-sinistra{
     max-width: 50%;
     padding :0  10%;
-}
-
- #terza-section, #sesta-section{
-    background-color: aqua;
-}
-
-#prima-section{
-    height: auto;
 }
 
 .piano-business{
@@ -95,6 +89,7 @@ h2{
 .centratura-piano{
     padding: 1% 3% 1% 3%;
 }
+
 .mese{
     color: rgb(110, 108, 108);
 }
@@ -132,11 +127,77 @@ hr{
 
 }
 
-#quinta-section{
+.img-partner{
+    max-width: 40%;
+    margin-right: 5%;
+    float: left;
+}
+
+.testo{
+   padding-top: 3% ;
+}
+
+.testo-partner{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.colonne{
+    width:calc(96%/3);
+    float: left;
+}
+
+.colonne.centrale{
+  margin: 0 2%;
+}
+
+.colonne-inferiori{
+    margin-top:50px;
+}
+
+#quarta-section{
     width: 100%;
     height: 400px;
-    background-color: rgb(201, 231, 90);
+    
 }
+
+.titolo{
+    margin-left: 10%;
+    margin-bottom:3% ;
+}
+
+
+
+
+.col.left {
+    width: 30%;
+    height: 300px;
+    background-color: powderblue;
+    float: left;
+}
+
+.col.center{
+    width: 40%;
+    height: 300px;
+    background-color: darkgoldenrod;
+    float: left;
+}
+
+.col.right{
+    width: 30%;
+    height: 300px;
+    background-color: red;
+    float: left;
+}
+
+
+#quinta-section{
+    height: 500px;
+    background-color: pink;
+}
+
+
 
 footer{
     width: 100%;
