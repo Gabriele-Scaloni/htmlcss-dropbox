@@ -10,28 +10,28 @@
 </head>
 <body>
     <header>
-    <div class="container">
+        <div class="container">
 
             <div class="clearfix">
                 <img id="logo" src="img/logo-small.png" alt="logo">
-            <div>
+            </div>
+
             <nav class="clearfix">
                 <ul>
                     <!--menu sinistro-->
-                    <li><a href="">Perchè Dropbox</a></li>
-                    <li><a href="">Funzioni</a></li>
-                    <li><a href="">Piani e prezzi</a></li>
+                    <li class="li-inline" ><a href="">Perchè Dropbox</a></li>
+                    <li class="li-inline" ><a href="">Funzioni</a></li>
+                    <li class="li-inline" ><a href="">Piani e prezzi</a></li>
                     <!--menu destro-->
-                    <li class="menufloat"><button class="blu-button">Inizia</button></li>
-                    <li class="menufloat"><a href="">Accedi</a></li>
-                    <li class="menufloat"><a href="">Contatta l'ufficio</a></li>
-                    <li class="menufloat"><a href="">Supporto</a></li>
+                    <li class="li-inline menufloat"><button class="blu-button">Inizia</button></li>
+                    <li class="li-inline menufloat"><a href="">Accedi</a></li>
+                    <li class="li-inline menufloat"><a href="">Contatta l'ufficio</a></li>
+                    <li class="li-inline menufloat"><a href="">Supporto</a></li>
                 </ul>
             </nav>
         </div> 
     </header>
-
-
+     <!--fine header-->
             <hr>
     <section class="banner clearfix">
         
@@ -41,7 +41,7 @@
             <br>
             <button class="blu-button" id="button-start">Inizia la tua prova gratuita</button>
             <p>Annulla in qualsiasi momento</p>
-            <a href=""><i class="fas fa-arrow-down"></i></a>
+            <a href=""><i  id="freccia-in-basso" class="fas fa-arrow-down"></i></a>
         </div>
         <img class="jumbo" src="img/jumbo.png" alt="immagine">
     </section>
@@ -54,10 +54,10 @@
                 <!--prime 3 colonne-->
         <div class="clearfix">
             <div class="piano-business" id="col1"> 
-                <p class="head-box"><strong>Singolo</strong></p>
+                <p class="head-box"><i class="far fa-user"></i><strong></i>Singolo</strong></p>
                <!--dovevo fare una lista!-->
                 <div class="centratura-piano">
-                    <h3>Professional</h3>
+                    <h3> Professional</h3>
                     <p> <strong>19.99€</strong></p>
                     <p class="mese">/mese</p>
                     <br>
@@ -68,21 +68,21 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni soluta </p>
                     <button class="blu-button" id="prova-gratis">Prova gratis per 30 giorni</button>
                     <p>oppure <a href=" ">acquista ora</a></p>
-                    <hr>
+                    <hr class="divisore-corto">
                     <h4>Punti salienti del piano</h4>
                     <ul>
-                        <li><p> <span class="spunta">✓</span> Invia file fino a 100GB con dropbox transfert</p></li>
-                        <li><p> <span class="spunta">✓</span> offline su dispositivi mobili</p></li>
-                        <li><p> <span class="spunta">✓</span> Pulizia remota dell'account</p></li>
-                        <li><p> <span class="spunta">✓</span> Filigrana documento</p></li>
-                        <li><p> <span class="spunta">✓</span> Assistenza prioritaria email e chat</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Invia file fino a 100GB con dropbox transfert</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>offline su dispositivi mobili</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Pulizia remota dell'account</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Filigrana documento</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Assistenza prioritaria email e chat</p></li>
                     </ul>
                 </div>
             </div>
             
                 
             <div class="piano-business" id="col2"> 
-                <p class="head-box"><strong>Team</strong></p>
+                <p class="head-box"><i class="fas fa-hotel"></i><strong>Team</strong></p>
                 <div class="centratura-piano">
                     <h3>Standard</h3>
                     <p> <strong>19.99€</strong></p>
@@ -95,22 +95,22 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni soluta </p>
                     <button class="blu-button" id="prova-gratis">Prova gratis per 30 giorni</button>
                     <p>oppure <a href=" ">acquista ora</a></p>
-                    <hr>
+                    <hr class="divisore-corto">
                     <h4>Punti salienti del piano</h4>
                     <ul>
-                        <li><p> <span class="spunta">✓</span> Invia file fino a 100GB con dropbox transfert</p></li>
-                        <li><p> <span class="spunta">✓</span> offline su dispositivi mobili</p></li>
-                        <li><p> <span class="spunta">✓</span> Pulizia remota dell'account</p></li>
-                        <li><p> <span class="spunta">✓</span> Filigrana documento</p></li>
-                        <li><p> <span class="spunta">✓</span> Assistenza prioritaria email e chat</p></li>
-                        <li><p> <span class="spunta">✓</span> Assistenza prioritaria email e chat</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Invia file fino a 100GB con dropbox transfert</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>offline su dispositivi mobili</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Pulizia remota dell'account</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Filigrana documento</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Assistenza prioritaria email e chat</p></li>
+                        <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Assistenza prioritaria email e chat</p></li>
                     </ul>
                 </div>
             </div>
                 
                 
             <div class="piano-business" id="col3"> 
-                <p class="head-box"><strong>Team</strong></p>
+                <p class="head-box"><i class="fas fa-hotel"></i><strong>Team</strong></p>
                 <div class="centratura-piano">
                     <h3>Advanced</h3>
                     <p> <strong>19.99€</strong></p>
@@ -123,21 +123,21 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni soluta </p>
                     <button class="blu-button" id="prova-gratis">Prova gratis per 30 giorni</button>
                     <p>oppure <a href=" ">acquista ora</a></p>
-                    <hr>
+                    <hr class="divisore-corto">
                     <h4>Punti salienti del piano</h4>
                     <ul>
-                        <li><p> <span class="spunta">✓</span> Invia file fino a 100GB con dropbox transfert</p></li>
-                        <li><p> <span class="spunta">✓</span> offline su dispositivi mobili</p></li>
-                        <li><p> <span class="spunta">✓</span> Pulizia remota dell'account</p></li>
-                        <li><p> <span class="spunta">✓</span> Filigrana documento</p></li>
-                        <li><p> <span class="spunta">✓</span> Assistenza prioritaria email e chat</p></li>
-                        <li><p> <span class="spunta">✓</span> Assistenza prioritaria email e chat</p></li>
+                        <li class="li-inline" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Invia file fino a 100GB con dropbox transfert</p></li>
+                            <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span> su dispositivi mobili</p></li>
+                            <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Pulizia remota dell'account</p></li>
+                            <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Filigrana documento</p></li>
+                            <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Assistenza prioritaria email e chat</p></li>
+                            <li class="li-inline testo" ><p> <span class="spunta"><i class="fas fa-check"></i> </span>Assistenza prioritaria email e chat</p></li>
                     </ul>
                 </div>
             </div> <!--fine colonne-->
         </div>
         <div class="section-piano-business clearfix">
-            <p class="head-box"> <strong>Team</strong> </p>
+            <p class="head-box"><i class="fas fa-hotel"></i><strong>Team</strong> </p>
             <button class="blu-button" id="contatta-ufficio-vendite">Contatta l'ufficio vendite</button>
             <h3 class="enterprise">Enterprise</h3>
            
@@ -145,19 +145,19 @@
             <p class="enterprise">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae est, provident fugiat, nihil placeat, perferendis non</p>
 
     </section>
-
+        <!--section 2-->
     <section id="seconda-section">
         <div class="clearfix">
             <img  class="img-partner"  src="img/partner.png" alt="immagine">        
             <div class="testo">     
                 <h3>Entra in contatto con partner Dropbox</h3>
                 <p class="testo-partner">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sit voluptatem quidem esse minus animi obcaecati, reiciendis doloremque debitis est tempore ratione delectus aut aperiam! Maxime maiores eum recusandae officiis.</p>
-                <p><button>Trova un partner</button></p>
+                <p><button class="trova-partner">Trova un partner</button></p>
             </div>
         </div>
     </section>
 
-
+        <!--section 3-->
     <section id="terza-section">
                 <h2>Esegui più operazioni con Dropbox Business</h2>
             <div class="clearfix">
@@ -173,7 +173,7 @@
                 <div class="colonne testo"><h2>Passa di meno da unos trumento all'altro</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsum, nobis corporis praesentium voluptatem odit sint qui quis quasi accusamus aliquid quo quia rem repellat nihil culpa ab eaque ex?
                 </div>
             </div>
-            <div class="colonne-inferiori ">
+            <div class="colonne-inferiori">
                 <div class="clearfix">
                     <img class="colonne" src="img/business-feature-integrations-it.png" alt="immagine">
                     <img class="colonne centrale" src="img/business-feature-send-files-it.png" alt="immagine">
@@ -190,17 +190,16 @@
                 </div>
             </div>
     </section>
-
-
+            <!--section 4-->
     <section id="quarta-section">
         <div class="titolo">
             <h2>Pi&ugrave; di 500.000 team <br> utilizzano Dropbox Business</h2>
-            <p><a href="">scopri di pi&ugrave;</a></p>
+            <p><a href="" class="scopri-di-piu">scopri di pi&ugrave; sui nostri clienti</a></p>
         </div>
         
-<div class="cols clearfix"></div>
+<div>
     <div class="col left clearfix">
-        <div class="img-sinistra-alto">
+        <div class="img-sinistra-alto bordo">
             <img class="immagini" src="img/designit.svg" alt="immagine">
         </div>
         <div class="img-destra-alto">
@@ -225,16 +224,16 @@
 
     <div class="cols clearfix">
         <div class="col right clearfix">
-            <div class="img-sinistra-alto">
+            <div class="img-sinistra-alto destra">
                 <img class="immagini" src="img/world_bicycle_relief.svg" alt="immagine">
             </div>
-            <div class="img-destra-alto">
+            <div class="img-destra-alto destra">
                 <img class="immagini" src="img/hearst_corp.svg" alt="immagine">
             </div>
-            <div class="img-sinistra-basso">
+            <div class="img-sinistra-basso destra">
                 <img class="immagini" src="img/lonely_planet.svg" alt="immagine">
             </div>
-            <div class="img-destra-basso">
+            <div class="img-destra-basso destra">
                 <img class="immagini" src="img/clear_channel.svg" alt="immagine">
             </div>          
         </div>
@@ -248,16 +247,84 @@
     
     </section>
 
-
-    <section id="quinta-section">
+        <!--section 5-->
+    <section id="quinta-section clearfix">
         <h3 class="domande-frequenti">Domande frequenti</h3>
-
-    
+        <hr class="divisorio-lungo">
+        
+        <ul>
+            <li class="li-inline" > <h5>Qual'&egrave; la differenza tra Dropbox business standard e Business advanced?</h5> <i class="fas fa-chevron-down closed"></i></li>
+            <hr class="divisorio-lungo">
+            <li class="li-inline" ><h5>Qual'&egrave; la differenza tra Dropbox business standard e Business advanced? </h5><i class="fas fa-chevron-down closed"></i></li>
+            <hr class="divisorio-lungo">
+            <li class="li-inline" ><h5>Qual'&egrave; la differenza tra Dropbox business standard e Business advanced? </h5><i class="fas fa-chevron-down closed"></i></li>
+            <hr class="divisorio-lungo">
+            <li class="li-inline" ><h5>Qual'&egrave; la differenza tra Dropbox business standard e Business advanced? </h5><i class="fas fa-chevron-down closed"></i></li>
+            <hr class="divisorio-lungo">
+            <li class="li-inline" ><h5>Qual'&egrave; la differenza tra Dropbox business standard e Business advanced? </h5><i class="fas fa-chevron-down closed"></i></li>
+            <hr class="divisorio-lungo">
+        </ul>
     </section>
 
-
+        <!--footer-->
     <footer>
+        <div class="raw">
+          <div class="colonnefooter uno clearfix">
+              <ul>
+                <li class="li-footer titoli-footer"><h4>Dropbox</h4></li>
+                <li class="li-footer">Applicazione desktop</li>
+                <li class="li-footer">Perch&egrave; Dropbox</li>
+                <li class="li-footer">Piani</li>    
+                <li class="li-footer">Sicurezza</li>
+                <li class="li-footer">Funzioni</li>
+              </ul>
+          </div>
+          <div class="colonnefooter due clearfix">
+            <ul>
+                <li class="li-footer titoli-footer"><h4>Dropbox</h4></li>
+                <li class="li-footer">Applicazione desktop</li>
+                <li class="li-footer">Perch&egrave; Dropbox</li>
+                <li class="li-footer">Piani</li>    
+                <li class="li-footer">Sicurezza</li>
+                <li class="li-footer">Funzioni</li>
+              </ul>
 
+          </div>
+          <div class="colonnefooter tre clearfix">
+            <ul>
+                <li class="li-footer titoli-footer"><h4>Dropbox</h4></li>
+                <li class="li-footer">Applicazione desktop</li>
+                <li class="li-footer">Perch&egrave; Dropbox</li>
+                <li class="li-footer">Piani</li>    
+                <li class="li-footer">Sicurezza</li>
+                <li class="li-footer">Funzioni</li>
+              </ul>
+
+          </div>
+          <div class="colonnefooter quattro clearfix">
+            <ul>
+                <li class="li-footer titoli-footer"><h4>Dropbox</h4></li>
+                <li class="li-footer">Applicazione desktop</li>
+                <li class="li-footer">Perch&egrave; Dropbox</li>
+                <li class="li-footer">Piani</li>    
+                <li class="li-footer">Sicurezza</li>
+                <li class="li-footer">Funzioni</li>
+              </ul>
+
+          </div>
+          <div class="colonnefooter cinque clearfix">
+            <ul>
+                <li class="li-footer titoli-footer"><h4>Dropbox</h4></li>
+                <li class="li-footer">Applicazio nedesktop</li>
+                <li class="li-footer">Perch&egrave; Dropbox</li>
+                <li class="li-footer">Piani</li> 
+              </ul>
+          </div>
+        </div>
+        <hr class="divisore-footer">
+        <div> <i class="fas fa-globe-americas"></i><a  class="lingua" href="">Italiano</a>
+         </div>
     </footer>
+
 </body>
 </html>
