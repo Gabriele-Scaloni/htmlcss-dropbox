@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 100%;
     height: 50px;
     position: fixed;
@@ -12,82 +12,84 @@
     background-color: white;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-a{
+.a-menu{
+    display: inline;
     text-decoration: none;
+    color: black;
 }
 
-.li-inline{
+.li-inline {
     display: inline;
     text-decoration: none;
     padding: 0 6px ;
 }   
 
-.li-inline.testo{
+.li-inline.testo {
     margin-left: 4%;
 }
 
-#logo{
+#logo {
     padding-right: 10px;
     float: left;
 }
 
-.menufloat{
+.menufloat {
     float: right;
 }
 
-.blu-button{
+.blu-button {
     padding:5px 10%;
     background-color: rgb(66, 66, 224);
     color: white;
 }
 
-.banner{
+.banner {
     width: 100%;
     height: 400px;
     background-color: rgb(112, 112, 233);
 }
 
-h1{
+h1 {
     padding: 50px 10% 20px;
     text-align: center;
     font-size: 30px;
 }
 
- #freccia-in-basso{
+ #freccia-in-basso {
     margin-top: 20px;
     color:black;
 }
 
-.jumbo{
+.jumbo {
     max-width: 45%;
     float: right;
     margin-right: 5%;
     margin-top: 5%;
 }
 
-section{ 
+section { 
     width: 80%;
     height: auto;
     margin:  100px auto;
 }
 
-h2{
+h2 {
     margin-bottom: 15px;
 }
 
-.testo-sinistra{
+.testo-sinistra {
     max-width: 50%;
     padding :0  10%;
     float: left;
 }
 
-.piano-business{
+.piano-business {
     border: 1px solid grey;
     width: calc(96%/3);
     height: auto;
@@ -97,92 +99,91 @@ h2{
     margin-bottom: 5%;
 } 
 
-.head-box{
+.head-box {
     height: auto;
     border-bottom: 1px solid grey;
     text-align: center;
     padding: 5px;
 }
 
-.centratura-piano{
+.centratura-piano {
     padding: 1% 3% 1% 3%;
 }
 
-.mese{
+.mese {
     color: rgb(110, 108, 108);
 }
 
-#prova-gratis{
+#prova-gratis {
     margin: 30px auto 20px auto;
     width: 100%;
 }
 
-.divisore-corto{
+.divisore-corto {
     margin: 5% 0;
     width: 25%;
 }
 
-#col2{
+#col2 {
     margin: 10px 2% 0;
 }
 
-.spunta{
-    color: rgb(96, 16, 187) ;
+.spunta {
+    color: rgb(109, 18, 214) ;
 }
 
-.section-piano-business{
+.section-piano-business {
     border: 1px solid grey;
 }
 
-#contatta-ufficio-vendite /*bottone*/{
+#contatta-ufficio-vendite {/*bottone*/ 
     float: right;
     margin-top: 10px;
 }
 
-.enterprise{
+.enterprise {
     margin: 15px  50% 15px 10px;
 }
 
-.img-partner{
+.img-partner {
     max-width: 40%;
     margin-right: 5%;
     float: left;
 }
 
-.trova-partner{
+.trova-partner {
+    background-color: white;
     padding: 3px 10px;
 }
-.testo{
+.testo {
    padding-top: 3% ;
 }
 
-.testo-partner{
+.testo-partner {
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.colonne{
+.colonne {
     width:calc(96%/3);
     float: left;
 }
 
-.colonne.centrale{
+.colonne.centrale {
   margin: 0 2%;
 }
 
-.colonne-inferiori{
+.colonne-inferiori {
     margin-top:50px;
 }
 
-#quarta-section{
+#quarta-section {
     width: 100%;
     height:auto;
+    margin: 0 auto;
 }
-.scopri-di-piu{
-    color: rgb(72, 72, 218);
-    text-decoration: underline;
-}
-.titolo{
+
+.titolo {
     margin-left: 10%;
     margin-bottom:3% ;
 }
@@ -194,7 +195,7 @@ h2{
     float: left;
 }
 
-.col.center{
+.col.center {
     width: 40%;
     height: 320px;
     background-color: lightgray;
@@ -202,84 +203,96 @@ h2{
     padding: 5%;
 }
 
-.col.right{
+.col.right {
     width: 30%;
     height: 320px;
     background-color: red;
     float: left;
 }
 
-.img-sinistra-alto{
-   width:50%;
+.img-sinistra-alto {
+   width:50%; 
    height: 50%;
    background-color:rgb(179, 219, 173);
    float: left;
+   position: relative;
 }
-.img-sinistra-alto.destra{
+.img-sinistra-alto.destra {
     background-color: red;
 }
  
-.img-sinistra-alto.bordo{
+.img-sinistra-alto.bordo {
     border: 5px solid rgb(129, 222, 235);
     padding: 3% 3% 3% 0;
+    
 }
 
-.img-sinistra-basso{
+.img-sinistra-basso {
      width:50%;
      height: 50%;
      background-color: rgb(34, 148, 224);
      float: left;
+     position: relative;
 }
 
-.img-sinistra-basso.destra{
+.img-sinistra-basso.destra {
     background-color: blue;
+    position: relative;
 }
 
-.img-destra-alto{
+.img-destra-alto {
     width:50%;
     height: 50%;
     background-color: rgb(225, 0, 255);
     float: left;
+    position: relative;
 }
 
-.img-destra-alto.destra{
+.img-destra-alto.destra {
    background-color:rgb(34, 148, 224) ;
+   position: relative;
 }
 
-.img-destra-basso{
+.img-destra-basso {
     width:50%;
     height: 50%;
     background-color: rgb(230, 30, 40);
     float: left;
+    position: relative;
 }
 
-.img-destra-basso.destra{
+.img-destra-basso.destra {
     background-color: rgb(255, 153, 0);
+    position: relative;
 }
  
-.immagini{
+.immagini {
     filter: invert(1);
     max-width: 60%;
-    margin: 25% ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
-.immagine-centrale{
+.immagine-centrale {
      max-width: 30%;
 
 }
-.divisorio{
+.divisorio {
     width: 10%;
     margin-bottom: 8%;
 }
 
-.footer-quarta-section{
+.footer-quarta-section {
     width: 100%;
     height: 300px;
     background-color: lightslategray;
     position: relative;
 }
 
-.porta-dropbox{
+.porta-dropbox {
     font-size: 30px;
     max-width: 30%;
     position: absolute;
@@ -288,33 +301,36 @@ h2{
     transform: (-50%, -90%);
 }
 
-.blu-button.inline{
+.white-button.inline {
     position: absolute;
     top: 50%;
     right: 10%;
     transform: (-50%, 90%);
+    color: black;
+    background-color: white;
+    padding: 5px 10%;
 }
 
-.domande-frequenti{
+.domande-frequenti {
     font-size: 25px;
 }
 
-.fa-chevron-down{
+.fa-chevron-down {
   float: right;
 }
 
-.divisorio-lungo{
+.divisorio-lungo {
     margin:5% 0 5% 0;
     color: lightgray;
 }
 
 
-footer{
+footer {
     width: 100%;
     height:400px;
     background-color: black;
 }
-.colonnefooter{
+.colonnefooter {
     width: calc(90%/5);
     height: 250px;
     float: left;
@@ -322,31 +338,32 @@ footer{
     margin-bottom:6%;
 }
 
-.colonnefooter.cinque{
+.colonnefooter.cinque {
     margin-right: 10%;
 }
 
-.li-footer{
+.li-footer {
     display: inline-block;
     text-decoration:none;
     color: white;
     margin: 5%;
 }
 
-.li-footer.titoli-footer{
+.li-footer.titoli-footer {
      margin-bottom: 40%;
 }
 
-.divisore-footer{
+.divisore-footer {
     width: 10%;
     margin-left: 5%;
     margin-bottom: 2%;
 }
-.lingua{
+.lingua {
     color: rgb(129, 127, 127);
     margin: 5% 2px;
+    text-decoration: none;
 }
-.fa-globe-americas{
+.fa-globe-americas {
     color: rgb(129, 127, 127);
     margin: 3% 0 0 5%;
 }
